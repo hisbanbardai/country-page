@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/country-page/">
         <header className="relative">
           <Hero />
           <Logo />
